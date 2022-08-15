@@ -2,14 +2,16 @@
   "name": "fanatech-search",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "start": "node service.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "log-update": "^5.0.1",
     "node-fetch": "^2.6.1",
     "open": "^7.3.0",
     "play-sound": "^1.1.3"
